@@ -11,6 +11,8 @@ Run com.in28minutes.rest.webservices.restfulwebservices.RestfulWebServicesApplic
 #test4 added
 #test5 added
 
+#test6 added
+
 ## Hello World Resource
 
 - http://localhost:5000/hello-world
