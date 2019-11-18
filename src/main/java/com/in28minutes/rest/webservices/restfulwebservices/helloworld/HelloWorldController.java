@@ -15,7 +15,11 @@ public class HelloWorldController {
 	}
 	@GetMapping(path = "/welcome")
 	public String welcome() {
-		return "Welcome Dear Guest!!! This is my test";
+		return "Welcome Dear Guest!!! ";
+	}
+	@GetMapping(path = "/welcome1")
+	public String welcome1() {
+		return "Welcome1 Dear Guest!!! ";
 	}
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
