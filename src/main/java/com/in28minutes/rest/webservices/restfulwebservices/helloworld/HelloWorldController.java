@@ -13,7 +13,10 @@ public class HelloWorldController {
 	public String helloWorld() {
 		return "Welcomg to Hello World-- This chane happened from IDE and pussud to GitHub, Jenkins has taken the chanes and built Jar file";
 	}
-
+	@GetMapping(path = "/welcome")
+	public String welcome() {
+		return "Welcome Dear Guest";
+	}
 	@GetMapping(path = "/hello-world-bean")
 	public HelloWorldBean helloWorldBean() {
 		return new HelloWorldBean("Hello World");
