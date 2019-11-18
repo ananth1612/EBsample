@@ -16,7 +16,11 @@ Run com.in28minutes.rest.webservices.restfulwebservices.RestfulWebServicesApplic
 #test7 added
 
 #test8 added
+
 #test9 added
+
+#Elastic IP 3.125.36.130 added to Jenkins instance and modified in Webhooks
+ 
 
 ## Hello World Resource
 
