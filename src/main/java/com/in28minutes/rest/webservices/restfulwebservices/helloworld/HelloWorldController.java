@@ -30,6 +30,7 @@ public class HelloWorldController {
 	@GetMapping(path = "/hello-world/path-variable/{name}")
 	public HelloWorldBean helloWorldPathVariable(@PathVariable String name) {
 		//throw new RuntimeException("Something went wrong");
+		//adding comment1 to commit
 		return new HelloWorldBean(String.format("Hello World, %s", name));
 	}
 }
