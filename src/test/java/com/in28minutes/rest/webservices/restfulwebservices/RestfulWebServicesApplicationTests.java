@@ -12,5 +12,6 @@ public class RestfulWebServicesApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+	//adding comment2 in test class
 
 }
