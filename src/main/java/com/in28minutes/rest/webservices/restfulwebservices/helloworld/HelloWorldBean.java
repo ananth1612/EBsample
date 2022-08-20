@@ -15,7 +15,7 @@ public class HelloWorldBean {
 	public void setMessage(String message) {
 		this.message = message;
 	}
-
+	//commit 1
 	@Override
 	public String toString() {
 		return String.format("HelloWorldBean [message=%s]", message);
