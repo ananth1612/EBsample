@@ -32,6 +32,7 @@ public class HelloWorldController {
 		//throw new RuntimeException("Something went wrong");
 		//adding comment1 to commit
 		//adding comment2 to commit
+		//adding comment3 to commit
 		return new HelloWorldBean(String.format("Hello World, %s", name));
 	}
 }
