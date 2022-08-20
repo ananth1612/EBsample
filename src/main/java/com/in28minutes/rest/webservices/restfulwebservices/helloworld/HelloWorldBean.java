@@ -17,8 +17,6 @@ public class HelloWorldBean {
 	}
 	//commit 1
 	//commit 2
-	//commit 3
-	//commit 4
 	@Override
 	public String toString() {
 		return String.format("HelloWorldBean [message=%s]", message);
